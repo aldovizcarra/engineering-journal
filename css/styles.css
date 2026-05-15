@@ -1,3 +1,72 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src:
+    url("../assets/fonts/jetbrains-mono/JetBrainsMono-Regular.woff2")
+      format("woff2"),
+    url("../assets/fonts/jetbrains-mono/JetBrainsMono-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Caslon Text";
+  src:
+    url("../assets/fonts/libre-caslon/LibreCaslonText-Bold.woff2")
+      format("woff2"),
+    url("../assets/fonts/libre-caslon/LibreCaslonText-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Caslon Text";
+  src:
+    url("../assets/fonts/libre-caslon/LibreCaslonText-Italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/libre-caslon/LibreCaslonText-Italic.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Caslon Text";
+  src:
+    url("../assets/fonts/libre-caslon/LibreCaslonText-Regular.woff2")
+      format("woff2"),
+    url("../assets/fonts/libre-caslon/LibreCaslonText-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Newsreader 16pt";
+  src:
+    url("../assets/fonts/newsreader/Newsreader16pt-Regular.woff2")
+      format("woff2"),
+    url("../assets/fonts/newsreader/Newsreader16pt-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Newsreader 16pt";
+  src:
+    url("../assets/fonts/newsreader/Newsreader16pt-Italic.woff2")
+      format("woff2"),
+    url("../assets/fonts/newsreader/Newsreader16pt-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
 /* Base font size */
 html {
   font-size: 16px;
