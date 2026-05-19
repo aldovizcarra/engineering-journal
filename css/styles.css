@@ -67,6 +67,45 @@
   font-display: swap;
 }
 
+:root {
+  /* Colors */
+  --color-primary-300: #20201c;
+  --color-primary-400: #1c1c18;
+  --color-primary-500: #131410;
+  --color-primary-600: #0e0e0b;
+  --color-secondary-200: #e5e2db;
+  --color-secondary-300: #c0c8c7;
+  --color-secondary-400: #a7cecd;
+  --color-secondary-500: #8b9292;
+  --color-secondary-600: 8e8D8C;
+  --color-secondary-700: #6b7280;
+  --color-secondary-800: #414848;
+  --color-accent-500: #e9c349;
+  --color-accent-900: #3c2f00;
+  --color-accent-hover: #cba93e;
+
+  /* Typography */
+  --font-family-body: "Newsreader 16pt", serif;
+  --font-family-heading: "Libre Caslon Text", serif;
+  --font-family-mono: "JetBrains Mono", monospace;
+
+  --font-size-2xs: 0.625rem; /* 10px */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.8125rem; /* 13px */
+  --font-size-md: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.375rem; /* 22px */
+  --font-size-3xl: 1.5rem; /* 24px */
+  --font-size-4xl: 1.75rem; /* 28px */
+  --font-size-5xl: 1.875rem; /* 30px */
+  --font-size-6xl: 2rem; /* 32px */
+  --font-size-7xl: 2.5rem; /* 40px */
+  --font-size-8xl: 2.625rem; /* 42px */
+  --font-size-9xl: 4.5rem; /* 72px */
+}
+
 /* Base font size */
 html {
   font-size: 16px;
