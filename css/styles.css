@@ -173,4 +173,5 @@ body {
 body {
   background-color: var(--color-primary-300);
   color: var(--color-secondary-200);
+  font-family: var(--font-family-body);
 }
