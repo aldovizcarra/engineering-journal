@@ -169,3 +169,8 @@ html,
 body {
   height: 100%;
 }
+
+body {
+  background-color: var(--color-primary-300);
+  color: var(--color-secondary-200);
+}
