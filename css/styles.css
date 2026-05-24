@@ -206,3 +206,15 @@ body {
   width: 24px;
   fill: currentColor;
 }
+
+.nav__list {
+  list-style: none;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-family-mono);
+  text-transform: capitalize;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--color-secondary-300);
+}
