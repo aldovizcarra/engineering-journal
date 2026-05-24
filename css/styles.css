@@ -229,3 +229,15 @@ body {
   width: 20px;
   fill: currentColor;
 }
+
+.nav__body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
