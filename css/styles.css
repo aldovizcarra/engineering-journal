@@ -194,6 +194,7 @@ body {
   color: var(--color-secondary-200);
   border: none;
   padding: 4px;
+  cursor: pointer;
 }
 
 .nav__toggle svg {
