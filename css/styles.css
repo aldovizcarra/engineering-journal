@@ -176,6 +176,11 @@ body {
   font-family: var(--font-family-body);
 }
 
+.nav {
+  background-color: var(--color-primary-500);
+  padding: 24px;
+}
+
 .nav__brand {
   font-size: clamp(
     var(--font-size-xl),
