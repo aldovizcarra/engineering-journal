@@ -175,3 +175,16 @@ body {
   color: var(--color-secondary-200);
   font-family: var(--font-family-body);
 }
+
+.nav__brand {
+  font-size: clamp(
+    var(--font-size-xl),
+    calc(var(--font-size-xl) + 10 * ((100vw - 320px) / 448)),
+    var(--font-size-5xl)
+  );
+  font-family: var(--font-family-heading);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-secondary-200);
+  font-weight: bold;
+}
