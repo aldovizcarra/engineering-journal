@@ -198,11 +198,11 @@ body {
   background-color: var(--color-primary-500);
   color: var(--color-secondary-200);
   border: none;
-  padding: 4px;
+  padding: 4px 6px;
   cursor: pointer;
 }
 
 .nav__toggle svg {
-  width: 20px;
+  width: 24px;
   fill: currentColor;
 }
