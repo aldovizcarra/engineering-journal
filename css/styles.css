@@ -188,3 +188,15 @@ body {
   color: var(--color-secondary-200);
   font-weight: bold;
 }
+
+.nav__toggle {
+  background-color: var(--color-primary-500);
+  color: var(--color-secondary-200);
+  border: none;
+  padding: 4px;
+}
+
+.nav__toggle svg {
+  width: 20px;
+  fill: currentColor;
+}
