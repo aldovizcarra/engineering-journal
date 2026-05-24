@@ -232,6 +232,7 @@ body {
   background-color: transparent;
   color: var(--color-secondary-300);
   border: none;
+  cursor: pointer;
 }
 
 .nav__icons {
