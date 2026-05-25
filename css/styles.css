@@ -228,6 +228,10 @@ body {
   padding: 0 26px;
 }
 
+.nav__item:hover {
+  border-left: 2px solid var(--color-accent-hover);
+}
+
 .nav__icon {
   background-color: transparent;
   color: var(--color-secondary-300);
