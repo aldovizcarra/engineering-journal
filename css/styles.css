@@ -294,6 +294,10 @@ body {
   rotate: 45deg;
 }
 
+.nav__toggle.is-open .middle {
+  opacity: 0;
+}
+
 .line {
   transform-origin: center;
 }
