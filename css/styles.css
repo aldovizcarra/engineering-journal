@@ -251,6 +251,7 @@ body {
 }
 
 .nav__icons {
+  display: flex;
   margin-left: 24px;
 }
 
