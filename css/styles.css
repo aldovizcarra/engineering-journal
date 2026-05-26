@@ -207,6 +207,10 @@ body {
   cursor: pointer;
 }
 
+.nav__toggle:hover {
+  color: var(--color-accent-500);
+}
+
 .nav__toggle svg {
   width: 24px;
   fill: currentColor;
