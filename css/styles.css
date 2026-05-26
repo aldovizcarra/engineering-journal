@@ -291,6 +291,7 @@ body {
 
 .nav__toggle.is-open .top {
   y: 45;
+  rotate: 45deg;
 }
 
 .line {
