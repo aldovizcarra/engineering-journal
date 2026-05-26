@@ -253,10 +253,11 @@ body {
 .nav__icons {
   display: flex;
   margin-left: 24px;
+  gap: 24px;
 }
 
 .nav__icon svg {
-  width: 20px;
+  width: 24px;
   fill: currentColor;
 }
 
