@@ -269,7 +269,7 @@ body {
 }
 
 .nav__body {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 32px;
   position: absolute;
