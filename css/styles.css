@@ -279,3 +279,7 @@ body {
   width: 100%;
   padding: 30px 24px;
 }
+
+.nav__body.is-open {
+  display: flex;
+}
