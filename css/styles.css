@@ -280,6 +280,11 @@ body {
   padding: 30px 24px;
 }
 
+/* Hamburger toggle */
 .nav__body.is-open {
   display: flex;
+}
+
+.line {
+  transform-origin: center;
 }
