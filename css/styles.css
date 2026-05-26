@@ -144,6 +144,9 @@ textarea,
 select {
   font: inherit;
 }
+a {
+  color: inherit;
+}
 p,
 h1,
 h2,
