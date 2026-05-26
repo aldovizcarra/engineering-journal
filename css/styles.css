@@ -250,6 +250,10 @@ body {
   cursor: pointer;
 }
 
+.nav__icon:hover {
+  color: var(--color-accent-500);
+}
+
 .nav__icons {
   display: flex;
   margin-left: 24px;
