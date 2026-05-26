@@ -11,4 +11,6 @@ toggle.addEventListener("click", (e) => {
     "aria-label",
     isOpen ? "Close navigation menu" : "Open navigation menu",
   );
+
+  menu.setAttribute("aria-hidden", String(!isOpen));
 });
