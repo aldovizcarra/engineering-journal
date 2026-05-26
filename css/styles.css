@@ -144,9 +144,6 @@ textarea,
 select {
   font: inherit;
 }
-a {
-  color: inherit;
-}
 p,
 h1,
 h2,
@@ -223,7 +220,7 @@ body {
 .nav__link {
   font-size: var(--font-size-3xl);
   text-decoration: none;
-  color: var(--color-secondary-300);
+  color: inherit;
   text-transform: capitalize;
 }
 
@@ -233,6 +230,7 @@ body {
 
 .nav__item:hover {
   border-left: 2px solid var(--color-accent-hover);
+  color: var(--color-accent-hover);
 }
 
 .nav__icon {
