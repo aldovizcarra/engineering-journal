@@ -298,6 +298,10 @@ body {
   opacity: 0;
 }
 
+.nav__toggle.is-open .bottom {
+  y: 45;
+}
+
 .line {
   transform-origin: center;
 }
