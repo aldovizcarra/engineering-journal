@@ -306,3 +306,9 @@ body {
 .line {
   transform-origin: center;
 }
+
+@media (min-width: 768px) {
+  .nav__toggle {
+    display: none;
+  }
+}
