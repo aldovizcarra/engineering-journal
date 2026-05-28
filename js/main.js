@@ -34,3 +34,4 @@ toggle.addEventListener("click", () => {
 });
 
 window.addEventListener("resize", debounce(updateMenu, 100));
+updateMenu();
