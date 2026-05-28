@@ -317,4 +317,8 @@ body {
     position: static;
     flex-direction: row;
   }
+
+  .nav__list {
+    flex-direction: row;
+  }
 }
