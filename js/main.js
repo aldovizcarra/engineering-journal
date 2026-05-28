@@ -19,3 +19,11 @@ function updateMenu() {
   toggle.classList.toggle("is-open", menuOpen && !isDesktop);
   menu.classList.toggle("is-open", menuOpen && !isDesktop);
 }
+
+function debounce(fn, delay) {
+  let timer;
+  return () => {
+    clearTimeout(timer);
+    timer = setTimeout(fn, delay);
+  };
+}
