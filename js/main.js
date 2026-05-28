@@ -32,3 +32,5 @@ toggle.addEventListener("click", () => {
   menuOpen = !menuOpen;
   updateMenu();
 });
+
+window.addEventListener("resize", debounce(updateMenu, 100));
