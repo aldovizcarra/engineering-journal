@@ -190,7 +190,7 @@ body {
   font-size: clamp(
     var(--font-size-xl),
     calc(var(--font-size-xl) + 10 * ((100vw - 320px) / 448)),
-    var(--font-size-5xl)
+    var(--font-size-3xl)
   );
   font-family: var(--font-family-heading);
   text-decoration: none;
