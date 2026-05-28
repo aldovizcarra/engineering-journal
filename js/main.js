@@ -1,16 +1,21 @@
 const toggle = document.getElementById("navToggle");
 const menu = document.getElementById("navMenu");
+let menuOpen = false;
 
-toggle.addEventListener("click", (e) => {
-  const isOpen = toggle.classList.toggle("is-open");
+function updateMenu() {
+  const isDesktop = window.innerWidth >= 768;
 
-  menu.classList.toggle("is-open");
+  if (isDesktop) {
+    menu.setAttribute("aria-hidden", "false");
+  } else {
+    menu.setAttribute("aria-hidden", String(!menuOpen));
+    toggle.setAttribute("aria-expanded", String(menuOpen));
+    toggle.setAttribute(
+      "aria-label",
+      menuOpen ? "Close navigation menu" : "Open navigation menu",
+    );
+  }
 
-  toggle.setAttribute("aria-expanded", String(isOpen));
-  toggle.setAttribute(
-    "aria-label",
-    isOpen ? "Close navigation menu" : "Open navigation menu",
-  );
-
-  menu.setAttribute("aria-hidden", String(!isOpen));
-});
+  toggle.classList.toggle("is-open", menuOpen && !isDesktop);
+  menu.classList.toggle("is-open", menuOpen && !isDesktop);
+}
