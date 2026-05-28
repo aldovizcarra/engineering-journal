@@ -322,4 +322,8 @@ body {
   .nav__list {
     flex-direction: row;
   }
+
+  .nav__link {
+    font-size: var(--font-size-base);
+  }
 }
