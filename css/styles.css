@@ -315,5 +315,6 @@ body {
   .nav__body {
     display: flex;
     position: static;
+    flex-direction: row;
   }
 }
