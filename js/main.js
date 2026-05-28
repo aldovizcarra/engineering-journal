@@ -27,3 +27,8 @@ function debounce(fn, delay) {
     timer = setTimeout(fn, delay);
   };
 }
+
+toggle.addEventListener("click", () => {
+  menuOpen = !menuOpen;
+  updateMenu();
+});
