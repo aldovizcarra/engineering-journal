@@ -314,5 +314,6 @@ body {
 
   .nav__body {
     display: flex;
+    position: static;
   }
 }
