@@ -329,4 +329,8 @@ body {
   .nav__link {
     font-size: var(--font-size-base);
   }
+
+  .nav__brand {
+    flex: 1;
+  }
 }
