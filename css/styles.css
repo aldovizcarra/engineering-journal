@@ -311,4 +311,8 @@ body {
   .nav__toggle {
     display: none;
   }
+
+  .nav__body {
+    display: flex;
+  }
 }
