@@ -328,6 +328,7 @@ body {
 
   .nav__list {
     flex-direction: row;
+    margin-inline: auto;
   }
 
   .nav__link {
