@@ -255,6 +255,7 @@ body {
   color: var(--color-secondary-300);
   border: none;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 .nav__icon:hover {
