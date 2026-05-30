@@ -3,7 +3,7 @@ const menu = document.getElementById("navMenu");
 let menuOpen = false;
 
 function updateMenu() {
-  const isDesktop = window.innerWidth >= 768;
+  const isDesktop = window.innerWidth >= 900;
 
   if (isDesktop) {
     menu.setAttribute("aria-hidden", "false");
