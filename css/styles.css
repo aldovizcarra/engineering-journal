@@ -344,4 +344,8 @@ body {
   .nav__icons {
     margin: 0;
   }
+
+  .nav {
+    padding-inline: 64px;
+  }
 }
