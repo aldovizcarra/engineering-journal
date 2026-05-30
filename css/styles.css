@@ -351,4 +351,8 @@ body {
   .nav {
     padding-inline: 64px;
   }
+
+  .nav__icon svg {
+    width: 20px;
+  }
 }
