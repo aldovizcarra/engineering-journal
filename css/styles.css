@@ -321,6 +321,7 @@ body {
     position: static;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0;
   }
 
   .nav__list {
