@@ -340,4 +340,8 @@ body {
   .nav__item {
     padding: 0;
   }
+
+  .nav__icons {
+    margin: 0;
+  }
 }
