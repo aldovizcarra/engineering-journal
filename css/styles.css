@@ -336,4 +336,8 @@ body {
   .nav__brand {
     flex: 1;
   }
+
+  .nav__item {
+    padding: 0;
+  }
 }
