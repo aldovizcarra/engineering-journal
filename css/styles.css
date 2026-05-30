@@ -188,9 +188,9 @@ body {
 
 .nav__brand {
   font-size: clamp(
-    var(--font-size-xl),
-    calc(var(--font-size-xl) + 10 * ((100vw - 320px) / 448)),
-    var(--font-size-3xl)
+    var(--font-size-lg),
+    calc(var(--font-size-lg) + 10 * ((100vw - 320px) / 448)),
+    var(--font-size-2xl)
   );
   font-family: var(--font-family-heading);
   text-decoration: none;
