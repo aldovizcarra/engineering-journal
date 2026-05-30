@@ -189,7 +189,7 @@ body {
 .nav__brand {
   font-size: clamp(
     var(--font-size-lg),
-    calc(var(--font-size-lg) + 10 * ((100vw - 320px) / 448)),
+    calc(var(--font-size-lg) + 4 * ((100vw - 320px) / 580)),
     var(--font-size-2xl)
   );
   font-family: var(--font-family-heading);
