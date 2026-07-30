@@ -176,6 +176,8 @@ body {
   font-family: var(--font-family-body);
 }
 
+/* Nav */
+
 .nav {
   display: flex;
   align-items: center;
