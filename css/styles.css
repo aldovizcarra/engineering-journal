@@ -308,6 +308,13 @@ body {
   transform-origin: center;
 }
 
+/* Hero */
+
+.hero__eyebrow {
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+}
+
 @media (min-width: 900px) {
   .nav {
     justify-content: stretch;
