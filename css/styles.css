@@ -313,6 +313,7 @@ body {
 .hero__eyebrow {
   font-size: var(--font-size-xs);
   text-transform: uppercase;
+  color: var(--color-accent-500);
 }
 
 @media (min-width: 900px) {
