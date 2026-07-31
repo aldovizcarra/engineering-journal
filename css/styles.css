@@ -314,6 +314,10 @@ body {
 }
 
 /* Hero */
+.hero {
+  display: grid;
+}
+
 .hero__eyebrow {
   font-family: var(--font-family-mono);
   font-size: var(--font-size-xs);
