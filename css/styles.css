@@ -319,6 +319,10 @@ body {
   grid-template-columns: 3fr 1fr;
 }
 
+.hero > * {
+  grid-column: 1 / -1;
+}
+
 .hero__eyebrow {
   font-family: var(--font-family-mono);
   font-size: var(--font-size-xs);
