@@ -311,6 +311,7 @@ body {
 /* Main */
 .content {
   background-color: var(--color-primary-500);
+  padding: 48px 32px 66px;
 }
 
 /* Hero */
