@@ -438,4 +438,8 @@ body {
   .hero__content {
     grid-column: 1 / 2;
   }
+
+  .hero__image-container {
+    grid-column: 2;
+  }
 }
