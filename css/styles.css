@@ -309,12 +309,19 @@ body {
 }
 
 /* Hero */
-
 .hero__eyebrow {
   font-family: var(--font-family-mono);
   font-size: var(--font-size-xs);
   text-transform: uppercase;
   color: var(--color-accent-500);
+}
+
+.hero__heading {
+  font-size: clamp(
+    var(--font-size-6xl),
+    calc(var(--font-size-6xl) + 40 * ((100vw - 320px) / 580)),
+    var(--font-size-9xl)
+  );
 }
 
 @media (min-width: 900px) {
