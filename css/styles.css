@@ -322,6 +322,7 @@ body {
     calc(var(--font-size-6xl) + 40 * ((100vw - 320px) / 580)),
     var(--font-size-9xl)
   );
+  font-family: var(--font-family-heading);
 }
 
 @media (min-width: 900px) {
