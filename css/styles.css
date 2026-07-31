@@ -323,6 +323,7 @@ body {
     var(--font-size-9xl)
   );
   font-family: var(--font-family-heading);
+  line-height: 1.2;
 }
 
 @media (min-width: 900px) {
