@@ -357,6 +357,13 @@ body {
   padding: 12px 32px;
 }
 
+.hero__callout-text {
+  font-size: var(--font-size-xs);
+  font-family: var(--font-family-mono);
+  color: var(--color-secondary-500);
+  text-transform: uppercase;
+}
+
 @media (min-width: 900px) {
   .nav {
     justify-content: stretch;
