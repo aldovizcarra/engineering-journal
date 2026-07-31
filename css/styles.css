@@ -318,6 +318,7 @@ body {
   display: grid;
   grid-template-columns: 3fr 1fr;
   padding: 48px 32px;
+  gap: 32px;
 }
 
 .hero > * {
