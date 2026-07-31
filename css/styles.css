@@ -352,6 +352,9 @@ body {
   font-family: var(--font-family-mono);
   background-color: var(--color-accent-500);
   border: 0;
+  text-transform: uppercase;
+  color: var(--color-accent-900);
+  font-weight: 600;
 }
 
 @media (min-width: 900px) {
