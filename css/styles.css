@@ -347,6 +347,12 @@ body {
   color: var(--color-secondary-300);
 }
 
+.hero__callout {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
 .hero__callout-btn {
   font-size: var(--font-size-xs);
   font-family: var(--font-family-mono);
