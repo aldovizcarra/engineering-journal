@@ -380,6 +380,11 @@ body {
   gap: 16px;
 }
 
+.hero__image {
+  object-fit: cover;
+  height: 100%;
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
