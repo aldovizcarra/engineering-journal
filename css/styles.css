@@ -308,6 +308,11 @@ body {
   transform-origin: center;
 }
 
+/* Main */
+.content {
+  background-color: var(--color-primary-500);
+}
+
 /* Hero */
 .hero__eyebrow {
   font-family: var(--font-family-mono);
