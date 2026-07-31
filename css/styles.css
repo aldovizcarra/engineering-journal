@@ -349,6 +349,7 @@ body {
 
 .hero__callout-btn {
   font-size: var(--font-size-xs);
+  font-family: var(--font-family-mono);
 }
 
 @media (min-width: 900px) {
