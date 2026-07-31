@@ -387,4 +387,8 @@ body {
   .nav__icon svg {
     width: 20px;
   }
+
+  .hero__quote {
+    font-size: var(--font-size-xl);
+  }
 }
