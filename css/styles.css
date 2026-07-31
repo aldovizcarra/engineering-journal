@@ -330,6 +330,7 @@ body {
 .hero__quote {
   font-size: var(--font-size-lg);
   font-style: italic;
+  color: var(--color-secondary-300);
 }
 
 @media (min-width: 900px) {
