@@ -380,6 +380,7 @@ body {
 }
 
 @media (min-width: 900px) {
+  /* Nav */
   .nav {
     justify-content: stretch;
   }
@@ -429,7 +430,12 @@ body {
     width: 20px;
   }
 
+  /* Hero */
   .hero__quote {
     font-size: var(--font-size-xl);
+  }
+
+  .hero__content {
+    grid-column: 1 / 2;
   }
 }
