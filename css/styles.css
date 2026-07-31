@@ -327,6 +327,10 @@ body {
   font-weight: 600;
 }
 
+.hero__quote {
+  font-size: var(--font-size-xl);
+}
+
 @media (min-width: 900px) {
   .nav {
     justify-content: stretch;
