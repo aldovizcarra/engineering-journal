@@ -432,6 +432,11 @@ body {
   .nav__icon svg {
     width: 20px;
   }
+
+  /* Main */
+  .content {
+    padding-inline: 64px;
+  }
 }
 
 @media (min-width: 1250px) {
