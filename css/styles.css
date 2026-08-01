@@ -389,6 +389,7 @@ body {
   /* Nav */
   .nav {
     justify-content: stretch;
+    padding-inline: 64px;
   }
 
   .nav__toggle {
@@ -426,10 +427,6 @@ body {
 
   .nav__icons {
     margin: 0;
-  }
-
-  .nav {
-    padding-inline: 64px;
   }
 
   .nav__icon svg {
