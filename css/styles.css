@@ -435,7 +435,9 @@ body {
   .nav__icon svg {
     width: 20px;
   }
+}
 
+@media (min-width: 1250px) {
   /* Hero */
   .hero__quote {
     font-size: var(--font-size-xl);
