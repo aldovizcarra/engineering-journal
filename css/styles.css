@@ -392,6 +392,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 4px;
 }
 
 .main-content__intro-heading {
