@@ -388,6 +388,7 @@ body {
 /* Main Content */
 .main-content__intro {
   font-family: var(--font-family-mono);
+  border-bottom: 1px solid var(--color-secondary-800);
 }
 
 .main-content__intro-heading {
