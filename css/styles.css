@@ -390,6 +390,12 @@ body {
   font-family: var(--font-family-mono);
 }
 
+.main-content__intro-heading {
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  color: var(--color-accent-500);
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
