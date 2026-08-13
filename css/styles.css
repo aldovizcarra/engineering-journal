@@ -385,6 +385,11 @@ body {
   height: 100%;
 }
 
+/* Main Content */
+.main-content__intro {
+  font-family: var(--font-family-mono);
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
