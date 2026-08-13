@@ -396,6 +396,14 @@ body {
   color: var(--color-accent-500);
 }
 
+.main-content__intro-link {
+  font-size: var(--font-size-2xs);
+  text-transform: uppercase;
+  color: var(--color-secondary-300);
+  text-decoration: none;
+  font-weight: 600;
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
