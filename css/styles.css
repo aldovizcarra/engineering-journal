@@ -413,6 +413,7 @@ body {
 .main-content__card {
   border: 1px solid var(--color-secondary-800);
   padding: 24px;
+  background-color: var(--color-primary-400);
 }
 
 .main-content__card-date {
