@@ -392,6 +392,10 @@ body {
   gap: 24px;
 }
 
+.main-content > * {
+  grid-column: 1 / -1;
+}
+
 .main-content__intro {
   font-family: var(--font-family-mono);
   border-bottom: 1px solid var(--color-secondary-800);
