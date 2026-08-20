@@ -451,6 +451,11 @@ body {
   color: var(--color-secondary-200);
 }
 
+.main-content__card-description {
+  font-size: var(--font-size-base);
+  color: var(--color-secondary-300);
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
