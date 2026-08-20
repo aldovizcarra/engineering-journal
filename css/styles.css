@@ -458,6 +458,14 @@ body {
   margin-bottom: 20px;
 }
 
+.main-content__card-link {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-xs);
+  color: var(--color-accent-500);
+  text-transform: uppercase;
+  text-underline-offset: 4px;
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
