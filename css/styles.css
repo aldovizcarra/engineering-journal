@@ -449,6 +449,7 @@ body {
   font-size: var(--font-size-2xl);
   text-transform: capitalize;
   color: var(--color-secondary-200);
+  margin-bottom: 8px;
 }
 
 .main-content__card-description {
