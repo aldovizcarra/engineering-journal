@@ -444,6 +444,13 @@ body {
   font-weight: 600;
 }
 
+.main-content__card-heading {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-2xl);
+  text-transform: capitalize;
+  color: var(--color-secondary-200);
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
