@@ -467,6 +467,10 @@ body {
 }
 
 /* Aside */
+.main-content__journal-intro {
+  border-bottom: 1px solid var(--color-secondary-800);
+}
+
 .main-content__journal-heading {
   font-family: var(--font-family-mono);
   font-size: var(--font-size-xs);
