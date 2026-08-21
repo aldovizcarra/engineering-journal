@@ -466,6 +466,14 @@ body {
   text-underline-offset: 4px;
 }
 
+/* Aside */
+.main-content__journal-heading {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  color: var(--color-accent-500);
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
