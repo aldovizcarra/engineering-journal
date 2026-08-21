@@ -467,6 +467,12 @@ body {
 }
 
 /* Aside */
+.main-content__journal-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .main-content__journal-intro {
   border-bottom: 1px solid var(--color-secondary-800);
 }
