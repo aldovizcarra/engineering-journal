@@ -484,6 +484,11 @@ body {
   color: var(--color-secondary-500);
 }
 
+.journal-entry__text {
+  color: var(--color-secondary-200);
+  font-weight: 600;
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
