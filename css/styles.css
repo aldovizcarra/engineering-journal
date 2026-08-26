@@ -506,6 +506,7 @@ body {
 .main-content__subscription-field-group {
   display: flex;
   flex-direction: column;
+  margin-bottom: 12px;
 }
 
 @media (min-width: 900px) {
