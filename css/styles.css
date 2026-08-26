@@ -509,6 +509,13 @@ body {
   margin-bottom: 12px;
 }
 
+.main-content__subscription-heading {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  color: var(--color-accent-500);
+}
+
 .main-content__subscription-description {
   margin-bottom: 24px;
 }
