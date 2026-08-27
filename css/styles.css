@@ -531,6 +531,7 @@ body {
 .main-content__subscription-field {
   background-color: var(--color-primary-300);
   border: 1px solid var(--color-secondary-800);
+  padding: 8px 12px;
 }
 
 .main-content__subscription-field::placeholder {
