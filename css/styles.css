@@ -521,6 +521,13 @@ body {
   color: var(--color-secondary-300);
 }
 
+.main-content__subscription-label {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-2xs);
+  text-transform: uppercase;
+  color: var(--color-secondary-500);
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
