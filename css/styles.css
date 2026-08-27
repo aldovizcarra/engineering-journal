@@ -533,6 +533,10 @@ body {
   border: 1px solid var(--color-secondary-800);
 }
 
+.main-content__subscription-field::placeholder {
+  color: var(--color-secondary-700);
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
