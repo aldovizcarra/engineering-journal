@@ -518,6 +518,7 @@ body {
 
 .main-content__subscription-description {
   margin-bottom: 24px;
+  color: var(--color-secondary-300);
 }
 
 @media (min-width: 900px) {
