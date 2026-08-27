@@ -544,6 +544,17 @@ body {
   color: var(--color-secondary-700);
 }
 
+.main-content__subscription-button {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-2xs);
+  color: var(--color-accent-900);
+  text-transform: uppercase;
+  background-color: var(--color-accent-500);
+  border: none;
+  padding: 8px;
+  text-align: center;
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
