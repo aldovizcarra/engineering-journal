@@ -503,6 +503,11 @@ body {
   flex-direction: column;
 }
 
+.main-content__subscription-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-content__subscription-field-group {
   display: flex;
   flex-direction: column;
