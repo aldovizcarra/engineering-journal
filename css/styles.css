@@ -470,6 +470,12 @@ body {
 }
 
 /* Aside */
+.main-content__aside {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .main-content__journal-entries {
   display: flex;
   flex-direction: column;
