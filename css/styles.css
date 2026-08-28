@@ -632,6 +632,7 @@ body {
 
   .main-content__cards {
     grid-column: 1 / 2;
+    align-self: start;
   }
 
   .main-content__aside {
