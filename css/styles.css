@@ -619,6 +619,24 @@ body {
   .content {
     padding-inline: 64px;
   }
+
+  .main-content__intro {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+
+  .main-content__journal-intro {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .main-content__cards {
+    grid-column: 1 / 2;
+  }
+
+  .main-content__aside {
+    grid-column: 2;
+  }
 }
 
 @media (min-width: 1250px) {
