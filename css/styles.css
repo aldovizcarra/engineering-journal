@@ -619,7 +619,23 @@ body {
   .content {
     padding-inline: 64px;
   }
+}
 
+@media (min-width: 1250px) {
+  /* Hero */
+  .hero__quote {
+    font-size: var(--font-size-xl);
+  }
+
+  .hero__content {
+    grid-column: 1 / 2;
+  }
+
+  .hero__image-container {
+    grid-column: 2;
+  }
+
+  /* Main */
   .main-content__intro {
     grid-column: 1 / 2;
     grid-row: 1;
@@ -630,16 +646,12 @@ body {
     grid-row: 1;
   }
 
+  /* Cards */
   .main-content__cards {
     grid-column: 1 / 2;
     align-self: start;
   }
 
-  .main-content__aside {
-    grid-column: 2;
-  }
-
-  /* Cards */
   .main-content__card:nth-child(1) {
     grid-column: 1;
   }
@@ -660,20 +672,6 @@ body {
 
   .main-content__aside {
     gap: 80px;
-  }
-}
-
-@media (min-width: 1250px) {
-  /* Hero */
-  .hero__quote {
-    font-size: var(--font-size-xl);
-  }
-
-  .hero__content {
-    grid-column: 1 / 2;
-  }
-
-  .hero__image-container {
     grid-column: 2;
   }
 }
