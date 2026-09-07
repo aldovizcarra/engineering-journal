@@ -568,6 +568,13 @@ body {
 }
 
 /* Quote Section */
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .quote__icon {
   width: 20px;
   fill: var(--color-accent-500);
