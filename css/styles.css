@@ -578,6 +578,7 @@ body {
 .quote__icon {
   width: 20px;
   fill: var(--color-accent-500);
+  margin-bottom: 8px;
 }
 
 .quote__text {
