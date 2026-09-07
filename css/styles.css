@@ -584,6 +584,7 @@ body {
   font-size: var(--font-size-2xl);
   font-family: var(--font-family-heading);
   font-style: italic;
+  margin-bottom: 32px;
 }
 
 .quote__cite {
