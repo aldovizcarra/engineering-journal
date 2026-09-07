@@ -573,8 +573,10 @@ body {
   fill: var(--color-accent-500);
 }
 
-.quote {
-  text-align: center;
+.quote__text {
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-family-heading);
+  font-style: italic;
 }
 
 @media (min-width: 900px) {
