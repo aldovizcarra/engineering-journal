@@ -315,7 +315,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 48px;
-  align-items: center;
 }
 
 /* Hero */
@@ -577,6 +576,7 @@ body {
   border-top: 1px solid var(--color-secondary-800);
   padding: 68px 0;
   max-width: 672px;
+  align-self: center;
 }
 
 .quote__icon {
