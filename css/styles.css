@@ -609,6 +609,7 @@ body {
   padding: 24px;
   align-items: center;
   text-align: center;
+  font-size: var(--font-size-xs);
 }
 
 @media (min-width: 900px) {
