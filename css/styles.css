@@ -695,6 +695,11 @@ body {
   .content {
     padding-inline: 64px;
   }
+
+  /* Footer */
+  .footer {
+    padding-inline: 64px;
+  }
 }
 
 @media (min-width: 1250px) {
