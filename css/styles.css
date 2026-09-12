@@ -755,4 +755,10 @@ body {
     gap: 80px;
     grid-column: 2;
   }
+
+  /* Footer */
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
