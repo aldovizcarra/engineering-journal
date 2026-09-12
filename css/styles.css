@@ -612,6 +612,15 @@ body {
   font-size: var(--font-size-xs);
 }
 
+.footer__copyright-text {
+  text-transform: uppercase;
+  color: var(--color-secondary-500);
+}
+
+.footer__copyright-icon {
+  margin-right: 6px;
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
