@@ -650,7 +650,7 @@ body {
 
 .footer__link a:hover::before {
   content: "";
-  inset: auto 0 0 0;
+  inset: auto 0 -2px 0;
   height: 2px;
   position: absolute;
   background-color: var(--color-accent-hover);
