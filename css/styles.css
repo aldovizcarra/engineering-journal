@@ -637,10 +637,23 @@ body {
   color: var(--color-secondary-300);
   cursor: pointer;
   font-weight: 600;
+  position: relative;
 }
 
 .footer__link span {
   text-transform: uppercase;
+}
+
+.footer__link a:hover {
+  color: var(--color-accent-hover);
+}
+
+.footer__link a:hover::before {
+  content: "";
+  inset: auto 0 0 0;
+  height: 2px;
+  position: absolute;
+  background-color: var(--color-accent-hover);
 }
 
 @media (min-width: 900px) {
