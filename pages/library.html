@@ -83,6 +83,90 @@
                 </form>
             </div>
         </div>
+
+
+        <div class="library-resources">
+            <div class="resources-card">
+                <div class="resources-card__header">
+                    <p class="resources-card__category">Layout</p>
+                    <h2 class="resources-card__heading"><span class="text-uppercase">Css</span> Grid:
+                        Holy Grail</h2>
+                    <button class="resources-card__button">Copy</button>
+                </div>
+                <p class="resources-card__description">A robust implementation of the three-column layout using named
+                    grid areas for maximum semantic clarity.
+                </p>
+                <pre class="resources-card__code"><code>.layout {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav main side"
+        "footer footer footer";
+    grid-template-columns: 200px 1fr 200px;
+}</code></pre>
+            </div>
+
+            <div class="resources-card">
+                <div class="resources-card__header">
+                    <p class="resources-card__category">State</p>
+                    <h2 class="resources-card__heading">Vanilla Store Hook</h2>
+                    <button class="resources-card__button">Copy</button>
+                </div>
+                <p class="resources-card__description">
+                    A simple observer-based state management pattern for reactive UI
+                    updates without external libraries.
+                </p>
+                <pre class="resources-card__code"><code>function createStore(initial) {
+    let state = initial;
+    const subs = new Set();
+        return {
+            get: () => state,
+            set: (v) => { state = v; subs.forEach(fn => 
+        fn(v)); },
+            sub: (fn) => subs.add(fn)
+    };
+}</code></pre>
+            </div>
+
+            <div class="resources-card">
+                <div class="resources-card__header">
+                    <p class="resources-card__category">Animation-Free</p>
+                    <h2 class="resources-card__heading">Instant Modal Reveal</h2>
+                    <button class="resources-card__button">Copy</button>
+                </div>
+                <p class="resources-card__description">
+                    Leveraging the native HTML dialog element for instant, accessible
+                    modal interactions.
+                </p>
+                <pre class="resources-card__code"><code>&lt;dialog id="modal"&gt;
+  &lt;form method="dialog"&gt;
+    &lt;h3&gt;Confirmed&lt;/h3&gt;
+    &lt;button&gt;Close&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/dialog&gt;
+
+&lt;script&gt;
+  modal.showModal();
+&lt;/script&gt;</code></pre>
+            </div>
+
+            <div class="resources-card">
+                <div class="resources-card__header">
+                    <p class="resources-card__category">Typography</p>
+                    <h2 class="resources-card__heading">Fluid Typography Clamp</h2>
+                    <button class="resources-card__button">Copy</button>
+                </div>
+                <p class="resources-card__description">
+                    Modern CSS clamp function for responsive font sizing without media
+                    queries or layout shifts.
+                </p>
+                <pre class="resources-card__code"><code>h1 {
+    font-size: clamp(2rem, 5vw + 1rem, 4rem);
+    line-height: 1.1;
+    text-wrap: balance;
+}</code></pre>
+            </div>
+        </div>
     </main>
 </body>
 
