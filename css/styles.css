@@ -176,7 +176,7 @@ body {
   font-family: var(--font-family-body);
 }
 
-/* Nav */
+/* ===== NAV ===== */
 
 .nav {
   display: flex;
@@ -285,7 +285,7 @@ body {
   padding: 30px 24px;
 }
 
-/* Hamburger toggle */
+/* ----- Hamburger Toggle ----- */
 .nav__body.is-open {
   display: flex;
 }
@@ -311,7 +311,7 @@ body {
 /* ==========================
    PAGE: INDEX
    ========================== */
-/* Main */
+/* ===== MAIN ===== */
 .content {
   background-color: var(--color-primary-500);
   padding: 48px 24px 66px;
@@ -320,7 +320,7 @@ body {
   gap: 48px;
 }
 
-/* Hero */
+/* ----- Hero ----- */
 .hero {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -391,7 +391,7 @@ body {
   height: 100%;
 }
 
-/* Main Content */
+/* ----- Main Content ----- */
 .main-content {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -425,7 +425,7 @@ body {
   font-weight: 600;
 }
 
-/* Main Content Cards */
+/* ----- Main Content Cards ----- */
 .main-content__cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -472,7 +472,7 @@ body {
   text-underline-offset: 4px;
 }
 
-/* Aside */
+/* ----- Aside ----- */
 .main-content__aside {
   display: flex;
   flex-direction: column;
@@ -570,7 +570,7 @@ body {
   font-weight: 600;
 }
 
-/* Quote Section */
+/* ----- Quote Section ----- */
 .quote {
   display: flex;
   flex-direction: column;
@@ -602,7 +602,7 @@ body {
   text-transform: uppercase;
 }
 
-/* Footer */
+/* ===== FOOTER ===== */
 .footer {
   font-family: var(--font-family-mono);
   background-color: var(--color-primary-500);
@@ -662,6 +662,7 @@ body {
 /* ==========================
    PAGE: Library
    ========================== */
+/* ===== MAIN ===== */
 
 @media (min-width: 900px) {
   /* Nav */
