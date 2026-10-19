@@ -685,6 +685,11 @@ body {
   font-style: italic;
 }
 
+/* ----- Search Filters ----- */
+.search-filters__buttons {
+  list-style-type: none;
+}
+
 @media (min-width: 900px) {
   /* Nav */
   .nav {
