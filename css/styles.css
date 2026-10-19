@@ -663,6 +663,27 @@ body {
    PAGE: Library
    ========================== */
 /* ===== MAIN ===== */
+/* ----- Library Intro ----- */
+.library-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.library-intro__heading {
+  font-family: var(--font-family-heading);
+  font-size: clamp(
+    var(--font-size-base),
+    calc(1rem + 8 * ((100vw - 320px) / 580)),
+    var(--font-size-3xl)
+  );
+  text-transform: capitalize;
+  color: var(--color-secondary-400);
+}
+
+.library-intro__text {
+  font-style: italic;
+}
 
 @media (min-width: 900px) {
   /* Nav */
