@@ -308,6 +308,9 @@ body {
   transform-origin: center;
 }
 
+/* ==========================
+   PAGE: INDEX
+   ========================== */
 /* Main */
 .content {
   background-color: var(--color-primary-500);
@@ -655,6 +658,10 @@ body {
   position: absolute;
   background-color: var(--color-accent-hover);
 }
+
+/* ==========================
+   PAGE: Library
+   ========================== */
 
 @media (min-width: 900px) {
   /* Nav */
