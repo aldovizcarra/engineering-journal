@@ -602,6 +602,52 @@ body {
   text-transform: uppercase;
 }
 
+/* ==========================
+   PAGE: Library
+   ========================== */
+/* ===== MAIN ===== */
+/* ----- Library Intro ----- */
+.library-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.library-intro__heading {
+  font-family: var(--font-family-heading);
+  font-size: clamp(
+    var(--font-size-base),
+    calc(1rem + 8 * ((100vw - 320px) / 580)),
+    var(--font-size-3xl)
+  );
+  text-transform: capitalize;
+  color: var(--color-secondary-400);
+}
+
+.library-intro__text {
+  font-style: italic;
+}
+
+/* ----- Search Filters ----- */
+/* Buttons */
+.search-filters__buttons {
+  list-style-type: none;
+}
+
+.search-filters__button {
+  font-family: var(--font-family-mono);
+  font-size: clamp(
+    var(--font-size-2xs),
+    calc(var(--font-size-2xs) + 6 * ((100vw - 320px) / 580)),
+    var(--font-size-base)
+  );
+  color: var(--color-accent-500);
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
 /* ===== FOOTER ===== */
 .footer {
   font-family: var(--font-family-mono);
@@ -657,37 +703,6 @@ body {
   height: 2px;
   position: absolute;
   background-color: var(--color-accent-hover);
-}
-
-/* ==========================
-   PAGE: Library
-   ========================== */
-/* ===== MAIN ===== */
-/* ----- Library Intro ----- */
-.library-intro {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.library-intro__heading {
-  font-family: var(--font-family-heading);
-  font-size: clamp(
-    var(--font-size-base),
-    calc(1rem + 8 * ((100vw - 320px) / 580)),
-    var(--font-size-3xl)
-  );
-  text-transform: capitalize;
-  color: var(--color-secondary-400);
-}
-
-.library-intro__text {
-  font-style: italic;
-}
-
-/* ----- Search Filters ----- */
-.search-filters__buttons {
-  list-style-type: none;
 }
 
 @media (min-width: 900px) {
