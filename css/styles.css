@@ -655,6 +655,15 @@ body {
   cursor: pointer;
   border: none;
   background: none;
+  position: relative;
+}
+
+.search-filters__button:hover::before {
+  content: "";
+  inset: auto 0 -2px 0;
+  height: 2px;
+  position: absolute;
+  background-color: var(--color-accent-hover);
 }
 
 /* Search Input */
