@@ -629,9 +629,18 @@ body {
 }
 
 /* ----- Search Filters ----- */
+.search-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
 /* Buttons */
 .search-filters__buttons {
   list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: clamp(16px, calc(16px + 16 * ((100vw - 420px) / 520)), 32px);
 }
 
 .search-filters__button {
@@ -776,6 +785,14 @@ body {
   /* Footer */
   .footer {
     padding-inline: 64px;
+  }
+}
+
+@media (min-width: 960px) {
+  /* ----- Search Filters ----- */
+  .search-filters {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
