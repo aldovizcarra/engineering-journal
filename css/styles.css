@@ -684,6 +684,11 @@ body {
   color: var(--color-secondary-600);
 }
 
+/* ----- Library Resources ----- */
+.resources-card {
+  background-color: var(--color-primary-400);
+}
+
 /* ===== FOOTER ===== */
 .footer {
   font-family: var(--font-family-mono);
