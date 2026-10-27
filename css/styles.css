@@ -689,7 +689,7 @@ body {
 /* ----- Library Resources ----- */
 .library-resources {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 32px;
 }
 
@@ -964,6 +964,23 @@ body {
 
   .main-content__aside {
     gap: 80px;
+    grid-column: 2;
+  }
+
+  /* ----- Library Resources ----- */
+  .resources-card:nth-child(1) {
+    grid-column: 1;
+  }
+
+  .resources-card:nth-child(2) {
+    grid-column: 2;
+  }
+
+  .resources-card:nth-child(3) {
+    grid-column: 1;
+  }
+
+  .resources-card:nth-child(4) {
     grid-column: 2;
   }
 
