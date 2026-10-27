@@ -171,7 +171,7 @@ body {
 }
 
 body {
-  background-color: var(--color-primary-300);
+  background-color: var(--color-primary-500);
   color: var(--color-secondary-200);
   font-family: var(--font-family-body);
 }
