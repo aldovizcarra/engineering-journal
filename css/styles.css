@@ -691,6 +691,10 @@ body {
 .resources-card {
   background-color: var(--color-primary-400);
   border: 1px solid var(--color-secondary-800);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .resources-card__header {
@@ -746,6 +750,7 @@ body {
   overflow: auto;
   background-color: var(--color-primary-600);
   border: 1px solid var(--color-secondary-800);
+  padding: 16px;
 }
 
 /* Card Button */
