@@ -687,6 +687,16 @@ body {
 }
 
 /* ----- Library Resources ----- */
+.library-resources {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.library-resources > * {
+  grid-column: 1 / -1;
+}
+
 /* Card */
 .resources-card {
   background-color: var(--color-primary-400);
