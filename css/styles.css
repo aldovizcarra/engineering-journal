@@ -795,6 +795,18 @@ body {
   color: var(--color-primary-600);
 }
 
+/* ----- Library Pagination ----- */
+.library-pagination__indicator-text {
+  font-family: var(--font-family-mono);
+  font-size: clamp(
+    var(--font-size-2xs),
+    calc(var(--font-size-2xs) + 6 * ((100vw - 320px) / 580)),
+    var(--font-size-base)
+  );
+  text-transform: uppercase;
+  color: var(--color-secondary-300);
+}
+
 /* ===== FOOTER ===== */
 .footer {
   font-family: var(--font-family-mono);
