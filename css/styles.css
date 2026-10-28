@@ -790,6 +790,11 @@ body {
   align-self: start;
 }
 
+.resources-card__button:hover {
+  background-color: var(--color-accent-500);
+  color: var(--color-primary-600);
+}
+
 /* ===== FOOTER ===== */
 .footer {
   font-family: var(--font-family-mono);
