@@ -951,6 +951,16 @@ body {
   .footer {
     padding-inline: 64px;
   }
+
+  /* ==========================
+   PAGE: Library
+   ========================== */
+  /* ===== MAIN ===== */
+  /* ----- Library Pagination ----- */
+  .library-pagination {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 960px) {
