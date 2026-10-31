@@ -796,6 +796,13 @@ body {
 }
 
 /* ----- Library Pagination ----- */
+.library-pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
 .library-pagination__indicator-text {
   font-family: var(--font-family-mono);
   font-size: clamp(
@@ -810,6 +817,8 @@ body {
 /* Pagination Button */
 .library-pagination__controls {
   list-style-type: none;
+  display: flex;
+  gap: 12px;
 }
 
 .library-pagination__button {
